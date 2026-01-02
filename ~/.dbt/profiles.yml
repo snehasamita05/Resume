@@ -1,0 +1,13 @@
+my_example_connection:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: pv74508.eu-north-1.aws   # MUST be exact
+      user: SSAMITA05
+      authenticator: externalbrowser
+      role: ACCOUNTADMIN
+      warehouse: TRANSFORMING
+      database: ANALYTICS
+      schema: JAFFLE_SHOP
+      threads: 4
